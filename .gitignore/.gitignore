@@ -1,0 +1,14 @@
+def find_vowel(str):
+    vowel=set("aeiouAEIOU")
+    count =0
+    for alphabet in str:
+        if alphabet in vowel:
+            count +=1
+
+
+    print(count)
+
+
+
+
+find_vowel('NArula')
